@@ -8,9 +8,9 @@ on:
         type: boolean
         required: false
       custom_message:
-         description: "Run Specific Job"
-         type: string
-         required: true
+        description: "Enter a custom message"
+        type: string
+        required: true
 
 jobs:
   job1:
